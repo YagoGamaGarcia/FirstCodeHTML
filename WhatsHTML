@@ -1,0 +1,118 @@
+### HTML ###
+O que é html?
+> Acrônimo para Hypertext Markup Language;
+> Uma liguagem para estruturar o Layout das páginas web;
+> Não podemos realizar: IF/ELSE, LOOPS, FUNÇÕES;
+> Faz parte da tríade web: HTML, CSS E JS;
+> Pode ser executada diretamento no navegador, não precisa de um setup;
+> Toda página web tem na sua composição HTML;
+
+> HTML - Estrutura a página
+> CSS - Estiliza a pagina
+> JS - Animações especiais
+
+### O que forma a estrutura? ###
+> Vamos criar elementos que são parecidos com o Word, onde estruturamos um texto, exemplo:
+> Títulos
+> Parágrafos
+> Listas
+> Tabelas
+> Imagens
+
+### Como executar HTML? ###
+> Para executar o HTML basta um navegador;
+> Vamos criar nosso código em algum editor;
+> Salvar o arquivo com a extensão .html;
+> E abrir este arquivo pelo navegador, compiando o seu caminho relativo;
+
+### Estrutura básica do HTML ###
+> Todo documento de HTML tem uma estrutura muito semelhante composta por tags essenciais, exemplo:
+	<DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0>
+		<title> Título </title>
+	</head>
+	<body>
+		<h1> Conteúdo do site </h1>
+	</body>
+	</html>
+
+### O que são TAGS? ###
+> Os elementos HTML são escritos através de tags;
+> Temos uma sintaxe semelhante para quase todas elas;
+> Sintaxe é a forma de como é codificado algo em uma linguagem de programação;
+> Exemplo:
+	<p> Este é um paragrafo </p>
+> Esta tag cria um parágrafo no nosso site;
+
+### Os atributos do HTML ###
+> Atributos são como opções especiais para configurar determinadas tags;
+> Exemplo:
+	<a href="https://www.google.com"> Ir para o Google </a>
+> Esta tag gera um elemento clicável, que nos leva até uma outra página;
+> E o link desta página é determinado pelo atributo href;
+
+### Encadeamento (nesting) ###
+> Encadeamento, também chamado de nesting, é quando adicionamos um elemento dentro de outro;
+> Uma técnica importante do HTML, para criar sessões, exemplo:
+	<div>
+		<h1> Meu titulo </h1>
+		<p> Meu conteúdo </p>
+	</div>
+> Aqui temos uma div com um título e um parágrafo, ambos encadeados;
+### Tag para sessão ###
+> <section> </section>
+
+### Barra de navegação ###
+> <nav> </nav>
+
+### Rodape ###
+> <footer> 
+>	<p> PodGamer &copy; 2022</p>
+> </footer>
+
+### Metatag ###
+> <link rel="stylesheet" href="Aquivo.css" />
+
+### Tags sem fechamento ###
+> Há tags que não possuem fechamento;
+> Geralmento é quando ela não tem conteúdo;
+> Um exemplo é a imagem, veja:
+	<img src="minhaimagem.jpg" alt="Conteúdo da imagem">
+> Os atributos configuram a tag completamente;
+> Inserindo o caminho da imagem (src) e uma descrição (alt);
+
+### Comentários ###
+> <!-- -->
+
+### Links ###
+> <a href="Link"> Ir para Link </a>
+> <a href="Link" target="_blank"> Nova Aba Ir para Link </a>
+
+### Quebras de linha ###
+> <hr />
+
+### Listas ###
+>> Listas ordenadas
+> <ol> <li> Primeiro </li> </ol>
+> <ol> <li> Segundo </li> </ol>
+
+>> Listas não ordenadas
+> <ul> <li> Item 1</li> </ul>
+> <ul> <li> Item 2</li> </ul>
+
+### Textos ### >>> HTML semantico
+> <b> Negrito </b>
+> <i> Italico </i>
+
+
+Inicio de uma pagina HTML
+Toda pagina HTML deve iniciar com <!DOCTYPE html> serve para indicar qual o tipo de arquivo
+
+>> <!DOCTYPE html>
+
+### Classes e Ids ###
+> <h1 id="NomeId"> Titulo da página</h1> -> Só pode ser usado uma vez
+> <p class="Meu-Paragrafo"> Algum conteudo</p> -> Pode ser usado varias vezes
