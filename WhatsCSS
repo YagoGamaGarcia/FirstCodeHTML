@@ -1,0 +1,103 @@
+### CSS ###
+
+### O que é CSS? ###
+> CSS é uma liguagem de estilização;
+> Um acrônimo para Cascading Style Sheets;
+> Frequentemente utilizada junto com o HTML;
+> Podemos posicioanr elementos, criar animações, e repoduzir um layout na web;
+> Pode ser executada diretamento no navegador, não precisa de setup;
+
+### Sintaxe Do CSS ###
+> Para estilizar elementos vamos sempre seguir alguns passos;
+> Escolher a tag (Por meio do Nome, Classe ou Id);
+> Abrir e fechar chaves, delimitando o espaço dos estilos do elemento;
+> Escrever as regras de estilização;
+> Todas devem terminar com um ponto e vírgula(;);
+>> Exemplo:
+	div{
+	 background-color: red;
+	}
+
+### Formas de adicionar CSS ###
+> Temos três formas muito utilizadas para inserir CSS em uma página:
+>> Inline: Onde o CSS fica na tag;
+	>>> Ulitiza o atributo STYLE: <tag style="color: red;" > Inline </p>
+>> Internal CSS: Onde o CSS fica no head da página;
+	>>> Utilizando a tag STYLE: p{
+						color: green:
+						}
+>> External CSS: Onde o CSS fica em um arquivo externo;
+	>>> Utiliza um arquivo externo: <link rel="stylesheet" href="style.css">
+> Esta ultima forma é mais indicada, e devemos sempre tentar utuliza-la;
+
+### Seletores de CSS ###
+> Temos formas além das tags de selecionar elementos;
+> Por Classe: Quando queremos afetar mais elementos com uma regra;
+> Por Id: Quando queremos afetar um único elemento;
+> Estas formas são referentes aos atributos CLASS e ID;
+> Há uma convenção no HTML que não nos permite adicionar mais de um elemento com o mesmo ID em uma página;
+>>> Elementos da página, listas
+> Para selecionar todos (*);
+> Para selecionar em listas (tem que separar com (,) as tags;
+
+### Comentario em CSS ###
+> /* */
+
+### Classes e Ids ###
+> Para selecionar a classe (.NomeDaClasse)
+> Para selecionar Id (#NomeDoID)
+
+### Cores ###
+> Adicionar as cores
+>> Nome da cor
+>> Hexadecimal
+>> RGB
+
+### Fontes ###
+> Serifada
+> Sem-serifa
+> Mono-espacada
+>>> Size weigth
+> tamanho-fonte-grande
+	 font-size: px
+> peso-fonte
+	 font-weigth
+
+### Box model ###
+> Tamanho do box model
+
+### Propiedades de Texto ###
+> Alinhamento -> text-aling
+> Maiusculo -> text-transform: lowercase
+> Minusculo -> text-transform: uppercase
+>> Espaçamento
+	width: px;
+	line-height: px;
+	letter-spacing: px;
+
+### Links ###
+> text-decoration: ; 
+> Color: ;
+> Backgound-color: ;
+
+>>> Button <<<
+> backgound-color
+> border : px solid color;
+> border-radius: px;
+> color: ;
+> text-decoration: ;
+> display: ;
+> width: ;
+> padding: ;
+> text-aling: ;
+> Margin
+> trasintion: 0.5
+
+>>> Button hover <<<
+> backgound-color: ;
+
+### Lista ###
+> list-style: ;
+
+### Display ###
+> display: ;
